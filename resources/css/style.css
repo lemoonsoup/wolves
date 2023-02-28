@@ -1,0 +1,352 @@
+body {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: #EFEFEF;
+    background-color: #72788D;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+
+
+}
+.header {
+    width: 100%;
+    height: 69px;
+    display: block;
+    background-color: #72788D;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid white;
+    z-index:999
+
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+.mission-container {
+    background-image: url("https://cdn.pixabay.com/photo/2022/09/05/17/44/wolf-7434796_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;
+}
+
+.text-over {
+    margin: auto;
+    background-color: #72788D;
+    width: 100%;
+
+}
+.trend-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height:auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trend img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.banner0 {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/29/20/23/wolf-2800375_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.box-container0 {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    Z-index:1
+}
+.box0 {
+    height: 250px;
+    width: 1000px;
+    padding-top: 70px;
+    padding-left,right,bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    flext-basis: 30%;
+    box-sizing: border-box;
+    background-color: #72788D;
+    opacity: 0.8;
+    Z-index:1
+
+}
+
+.banner1 {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/02/25/14/05/grey-wolf-7813349_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.box-container1 {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box1 {
+    height: 250px;
+    width: 1000px;
+    padding-top: 20px;
+    padding-left,right,bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    flext-basis: 30%;
+    box-sizing: border-box;
+    background-color: #72788D;
+    opacity: 0.8;
+
+}
+
+.banner2 {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/02/18/16/44/grey-wolf-7798307_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.box-container2 {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box2 {
+    height: 250px;
+    width: 1000px;
+    padding-top: 30px;
+    padding-left,right,bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    flext-basis: 30%;
+    box-sizing: border-box;
+    background-color: #72788D;
+    opacity: 0.8;
+
+}
+
+.banner3 {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/02/13/14/37/wolf-7787503_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.box-container3 {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box3 {
+    height: 250px;
+    width: 1000px;
+    padding-top: 18px;
+    padding-left,right,bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    flext-basis: 30%;
+    box-sizing: border-box;
+    background-color: #72788D;
+    opacity: 0.8;
+
+}
+
+.banner4 {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/22/18/06/wolf-2878678_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.box-container4 {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box4 {
+    height: 250px;
+    width: 1000px;
+    padding-top: 55px;
+    padding-left,right,bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    flext-basis: 30%;
+    box-sizing: border-box;
+    background-color: #72788D;
+    opacity: 0.8;
+
+}
+
+.banner5 {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/11/28/22/39/wolf-2984865_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.box-container5 {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box5 {
+    height: 250px;
+    width: 1000px;
+    padding-top: 30px;
+    padding-left,right,bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    flext-basis: 30%;
+    box-sizing: border-box;
+    background-color: #72788D;
+    opacity: 0.8;
+
+}
+
+
+.banner6 {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url('https://cdn.pixabay.com/photo/2020/07/01/17/34/wolf-5360340_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.box-container6 {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box6 {
+    height: 250px;
+    width: 1000px;
+    padding-top: 10px;
+    padding-left,right,bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    flext-basis: 30%;
+    box-sizing: border-box;
+    background-color: #72788D;
+    opacity: 0.8;
+
+}
+
+footer {
+    display: block;
+    background-color: #72788D;
+    float: left;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+#test{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+}
